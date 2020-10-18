@@ -5697,20 +5697,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\saroma\\.nuget\\packages\\": {}
+    "C:\\Users\\s.a\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\saroma\\source\\repos\\leave-management\\leave-management\\leave-management.csproj",
+      "projectUniqueName": "C:\\Users\\s.a\\Source\\Repos\\EmployeeLeave\\leave-management\\leave-management.csproj",
       "projectName": "leave-management",
-      "projectPath": "C:\\Users\\saroma\\source\\repos\\leave-management\\leave-management\\leave-management.csproj",
-      "packagesPath": "C:\\Users\\saroma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\saroma\\source\\repos\\leave-management\\leave-management\\obj\\",
+      "projectPath": "C:\\Users\\s.a\\Source\\Repos\\EmployeeLeave\\leave-management\\leave-management.csproj",
+      "packagesPath": "C:\\Users\\s.a\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\s.a\\Source\\Repos\\EmployeeLeave\\leave-management\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\saroma\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\s.a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5772,7 +5777,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
