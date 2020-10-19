@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s.a\\Source\\Repos\\EmployeeLeave\\leave-management\\leave-management.csproj": {}
+    "C:\\Users\\saroma\\source\\repos\\employee-leave\\EmployeeLeave\\leave-management\\leave-management.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s.a\\Source\\Repos\\EmployeeLeave\\leave-management\\leave-management.csproj": {
+    "C:\\Users\\saroma\\source\\repos\\employee-leave\\EmployeeLeave\\leave-management\\leave-management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s.a\\Source\\Repos\\EmployeeLeave\\leave-management\\leave-management.csproj",
+        "projectUniqueName": "C:\\Users\\saroma\\source\\repos\\employee-leave\\EmployeeLeave\\leave-management\\leave-management.csproj",
         "projectName": "leave-management",
-        "projectPath": "C:\\Users\\s.a\\Source\\Repos\\EmployeeLeave\\leave-management\\leave-management.csproj",
-        "packagesPath": "C:\\Users\\s.a\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s.a\\Source\\Repos\\EmployeeLeave\\leave-management\\obj\\",
+        "projectPath": "C:\\Users\\saroma\\source\\repos\\employee-leave\\EmployeeLeave\\leave-management\\leave-management.csproj",
+        "packagesPath": "C:\\Users\\saroma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\saroma\\source\\repos\\employee-leave\\EmployeeLeave\\leave-management\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\s.a\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\saroma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -42,6 +38,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.9, )"
@@ -81,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

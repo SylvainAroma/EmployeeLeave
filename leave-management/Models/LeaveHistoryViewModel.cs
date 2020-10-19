@@ -1,30 +1,28 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace leave_management.Data
+namespace leave_management.Models
 {
-    public class LeaveHistory
+    public class LeaveHistoryViewModel
     {
-        [Key]
         public int Id { get; set; }
-        [ForeignKey("RequestEmployeeId")]
-        public Employee RequestingEmployee { get; set; }
+        public EmployeeViewModel RequestingEmployee { get; set; }
         public string RequestingEmployeeId { get; set; }
+        [Required]
         public DateTime StartDate { get; set; }
+        [Required]
         public DateTime EndDate { get; set; }
-        [ForeignKey("LeaveTypeId")]
-        public LeaveType LeaveType { get; set; }
+        public DetailsLeaveTypeViewModel LeaveType { get; set; }
         public int LeaveTypeId { get; set; }
+        public IEnumerable<SelectListItem> LeaveTypes { get; set; }
         public DateTime DataRequested { get; set; }
         public DateTime DateActioned { get; set; }
         public bool? Approved { get; set; }
-        [ForeignKey("ApprovedById")]
-        public Employee ApprovedBy { get; set; }
+        public EmployeeViewModel ApprovedBy { get; set; }
         public string ApprovedById { get; set; }
-
     }
 }
