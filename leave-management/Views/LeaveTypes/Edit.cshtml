@@ -23,13 +23,14 @@
             <div class="form-group">
                 <input type="submit" value="Save Changes" class="btn btn-success btn-block" />
             </div>
+            <div>
+                <a class="btn btn-primary btn-block" asp-action="Index">Back to List</a>
+            </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
