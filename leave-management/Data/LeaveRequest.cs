@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace leave_management.Data
 {
-    public class LeaveHistory
+    public class LeaveRequest
     {
         [Key]
         public int Id { get; set; }
-        [ForeignKey("RequestEmployeeId")]
+        [ForeignKey("RequestingEmployeeId")]
         public Employee RequestingEmployee { get; set; }
         public string RequestingEmployeeId { get; set; }
         public DateTime StartDate { get; set; }
@@ -25,6 +25,6 @@ namespace leave_management.Data
         [ForeignKey("ApprovedById")]
         public Employee ApprovedBy { get; set; }
         public string ApprovedById { get; set; }
-
+        public bool? Cancelled { get; set; }
     }
 }

@@ -560,3 +560,7 @@ C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1
 C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveAllocation\ListEmployees.cshtml.g.cs
 C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveAllocation\Details.cshtml.g.cs
 C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveAllocation\Edit.cshtml.g.cs
+C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveRequest\Index.cshtml.g.cs
+C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveRequest\Create.cshtml.g.cs
+C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveRequest\Details.cshtml.g.cs
+C:\Users\s.a\source\repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveRequest\MyLeave.cshtml.g.cs

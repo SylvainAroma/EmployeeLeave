@@ -15,5 +15,9 @@ namespace leave_management.Data
         public int DefaultDays { get; set; }
         public DateTime DateCreated { get; set; }
 
+        internal object FirstOrDefault(Func<object, bool> p)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
