@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s.a\\source\\repos\\EmployeeLeave\\leave-management\\leave-management.csproj": {}
+    "C:\\Users\\s.a\\Source\\Repos\\EmployeeLeave\\leave-management\\leave-management.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s.a\\source\\repos\\EmployeeLeave\\leave-management\\leave-management.csproj": {
+    "C:\\Users\\s.a\\Source\\Repos\\EmployeeLeave\\leave-management\\leave-management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s.a\\source\\repos\\EmployeeLeave\\leave-management\\leave-management.csproj",
+        "projectUniqueName": "C:\\Users\\s.a\\Source\\Repos\\EmployeeLeave\\leave-management\\leave-management.csproj",
         "projectName": "leave-management",
-        "projectPath": "C:\\Users\\s.a\\source\\repos\\EmployeeLeave\\leave-management\\leave-management.csproj",
+        "projectPath": "C:\\Users\\s.a\\Source\\Repos\\EmployeeLeave\\leave-management\\leave-management.csproj",
         "packagesPath": "C:\\Users\\s.a\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s.a\\source\\repos\\EmployeeLeave\\leave-management\\obj\\",
+        "outputPath": "C:\\Users\\s.a\\Source\\Repos\\EmployeeLeave\\leave-management\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"

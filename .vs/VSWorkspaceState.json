@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\leave-management",
+    "\\leave-management\\Controllers",
+    "\\leave-management\\Views",
+    "\\leave-management\\Views\\LeaveRequest"
   ],
+  "SelectedNode": "\\leave-management\\Views\\LeaveRequest\\MyLeave.cshtml",
   "PreviewInSolutionExplorer": false
 }
