@@ -295,5 +295,10 @@ namespace leave_management.Controllers
                 return View();
             }
         }
+        protected override void Dispose(bool disposing)
+        {
+            _unitOfWork.Dispose();
+            base.Dispose(disposing);
+        }
     }
 }

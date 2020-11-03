@@ -159,9 +159,6 @@ C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\bin\Debug\netcoreapp3.1
 C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\leave-management.AssemblyInfoInputs.cache
 C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\leave-management.AssemblyInfo.cs
-C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\leave-management.csproj.CoreCompileInputs.cache
-C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\leave-management.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\leave-management.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\leave-management.RazorAssemblyInfo.cache
 C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\leave-management.RazorAssemblyInfo.cs
 C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\leave-management.TagHelpers.input.cache
@@ -565,3 +562,18 @@ C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1
 C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveRequest\Details.cshtml.g.cs
 C:\Users\s.a\source\repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveRequest\MyLeave.cshtml.g.cs
 C:\Users\s.a\Source\Repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLTE.cshtml.g.cs
+C:\Users\s.a\source\repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveTypes1\Create.cshtml.g.cs
+C:\Users\s.a\source\repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveTypes1\Delete.cshtml.g.cs
+C:\Users\s.a\source\repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveTypes1\Details.cshtml.g.cs
+C:\Users\s.a\source\repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveTypes1\Edit.cshtml.g.cs
+C:\Users\s.a\source\repos\EmployeeLeave\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveTypes1\Index.cshtml.g.cs
+C:\Users\s.a\source\repos\EmployeeLeave\leave-management\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.test-app-service-leave - Web Deploy.json
+C:\Users\s.a\source\repos\EmployeeLeave\leave-management\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.AzureKeyVault.HostingStartup.dll
+C:\Users\s.a\source\repos\EmployeeLeave\leave-management\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.dll
+C:\Users\s.a\source\repos\EmployeeLeave\leave-management\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.WebKey.dll
+C:\Users\s.a\source\repos\EmployeeLeave\leave-management\bin\Debug\netcoreapp3.1\Microsoft.Azure.Services.AppAuthentication.dll
+C:\Users\s.a\source\repos\EmployeeLeave\leave-management\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.AzureKeyVault.dll
+C:\Users\s.a\source\repos\EmployeeLeave\leave-management\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\s.a\source\repos\EmployeeLeave\leave-management\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\s.a\source\repos\EmployeeLeave\leave-management\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Users\s.a\source\repos\EmployeeLeave\leave-management\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.Azure.dll

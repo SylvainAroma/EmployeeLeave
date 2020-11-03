@@ -16,6 +16,11 @@ using leave_management.Contracts;
 using leave_management.Repository;
 using AutoMapper;
 using leave_management.Mappings;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.Identity.Web;
+using Microsoft.Identity.Web.TokenCacheProviders.InMemory;
+using Microsoft.Identity.Web.UI;
 
 namespace leave_management
 {
@@ -31,9 +36,20 @@ namespace leave_management
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+            if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Production")
+            {
+                services.AddDbContext<ApplicationDbContext>(options =>
+                    options.UseSqlServer(
+                        Configuration.GetConnectionString("AzureConnection")));
+            }
+            else
+            {
+                services.AddDbContext<ApplicationDbContext>(options =>
+                    options.UseSqlServer(
+                        Configuration.GetConnectionString("DefaultConnection")));
+            }
+
+            services.BuildServiceProvider().GetService<ApplicationDbContext>().Database.Migrate();
 
             //Add references for Repository and Contracts to Startup file
             services.AddScoped<ILeaveTypeRepository, LeaveTypeRepository>();
@@ -51,6 +67,17 @@ namespace leave_management
 
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            //services.AddMicrosoftIdentityWebAppAuthentication(Configuration);
+
+            //services.AddControllersWithViews(options =>
+            //{
+            //    var policy = new AuthorizationPolicyBuilder()
+            //        .RequireAuthenticatedUser()
+            //        .Build();
+            //    options.Filters.Add(new AuthorizeFilter(policy));
+            //}).AddMicrosoftIdentityUI();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
